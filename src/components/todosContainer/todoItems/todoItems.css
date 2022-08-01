@@ -1,0 +1,29 @@
+.todoItem{
+    background-color: white;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    align-items: center;
+    border: 1px solid grey;
+}
+.item-details{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.rem-Item p{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 150%;
+    background-color: transparent;
+}
+.rem-Item:hover{
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+}

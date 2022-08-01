@@ -1,0 +1,16 @@
+.todoForm{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    padding: 1rem;
+    align-items: center;
+}
+.todoForm input{
+    height: 2rem;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid rgb(0, 0, 61);
+    width: 300px;
+    padding: 0 .5rem;
+}
